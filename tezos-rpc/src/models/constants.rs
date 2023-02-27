@@ -73,7 +73,7 @@ pub struct Constants {
         skip_serializing_if = "Option::is_none",
         deserialize_with = "serde_utils::option_number_of_option_string"
     )]
-    pub tokens_per_roll: Option<BigInt>,
+    pub minimal_stake: Option<BigInt>,
     /// Mutez
     #[serde(
         skip_serializing_if = "Option::is_none",

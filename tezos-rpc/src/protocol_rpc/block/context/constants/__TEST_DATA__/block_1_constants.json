@@ -16,7 +16,7 @@
     "hard_gas_limit_per_operation": "400000",
     "hard_gas_limit_per_block": "4000000",
     "proof_of_work_threshold": "70368744177663",
-    "tokens_per_roll": "10000000000",
+    "minimal_stake": "10000000000",
     "michelson_maximum_type_size": 1000,
     "seed_nonce_revelation_tip": "125000",
     "origination_burn": "257000",
